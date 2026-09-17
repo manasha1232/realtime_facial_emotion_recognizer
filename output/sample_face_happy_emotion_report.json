@@ -1,0 +1,30 @@
+{
+    "filename": "sample_face_happy.jpg",
+    "total_faces_detected": 1,
+    "processing_time_sec": 0.0064,
+    "faces": [
+        {
+            "box": [
+                46,
+                36,
+                313,
+                313
+            ],
+            "dominant_emotion": "Happy",
+            "confidence": 0.8294,
+            "probabilities": {
+                "Angry": 0.0284,
+                "Disgust": 0.0284,
+                "Fear": 0.0284,
+                "Happy": 0.8294,
+                "Sad": 0.0284,
+                "Surprise": 0.0284,
+                "Neutral": 0.0284
+            }
+        }
+    ],
+    "output_files": {
+        "annotated_emotion": "output\\sample_face_happy_emotion.jpg",
+        "comparison_montage": "output\\sample_face_happy_comparison.jpg"
+    }
+}

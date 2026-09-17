@@ -1,0 +1,30 @@
+{
+    "filename": "sample_face_sad.jpg",
+    "total_faces_detected": 1,
+    "processing_time_sec": 0.0046,
+    "faces": [
+        {
+            "box": [
+                49,
+                38,
+                308,
+                308
+            ],
+            "dominant_emotion": "Sad",
+            "confidence": 0.8315,
+            "probabilities": {
+                "Angry": 0.0281,
+                "Disgust": 0.0281,
+                "Fear": 0.0281,
+                "Happy": 0.0281,
+                "Sad": 0.8315,
+                "Surprise": 0.0281,
+                "Neutral": 0.0281
+            }
+        }
+    ],
+    "output_files": {
+        "annotated_emotion": "output\\sample_face_sad_emotion.jpg",
+        "comparison_montage": "output\\sample_face_sad_comparison.jpg"
+    }
+}

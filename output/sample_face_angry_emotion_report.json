@@ -1,0 +1,30 @@
+{
+    "filename": "sample_face_angry.jpg",
+    "total_faces_detected": 1,
+    "processing_time_sec": 0.8839,
+    "faces": [
+        {
+            "box": [
+                49,
+                36,
+                312,
+                312
+            ],
+            "dominant_emotion": "Angry",
+            "confidence": 0.8239,
+            "probabilities": {
+                "Angry": 0.8239,
+                "Disgust": 0.0294,
+                "Fear": 0.0294,
+                "Happy": 0.0294,
+                "Sad": 0.0294,
+                "Surprise": 0.0294,
+                "Neutral": 0.0294
+            }
+        }
+    ],
+    "output_files": {
+        "annotated_emotion": "output\\sample_face_angry_emotion.jpg",
+        "comparison_montage": "output\\sample_face_angry_comparison.jpg"
+    }
+}

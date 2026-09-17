@@ -1,0 +1,30 @@
+{
+    "filename": "sample_face_neutral.jpg",
+    "total_faces_detected": 1,
+    "processing_time_sec": 0.002,
+    "faces": [
+        {
+            "box": [
+                57,
+                40,
+                295,
+                295
+            ],
+            "dominant_emotion": "Neutral",
+            "confidence": 0.8339,
+            "probabilities": {
+                "Angry": 0.0277,
+                "Disgust": 0.0277,
+                "Fear": 0.0277,
+                "Happy": 0.0277,
+                "Sad": 0.0277,
+                "Surprise": 0.0277,
+                "Neutral": 0.8339
+            }
+        }
+    ],
+    "output_files": {
+        "annotated_emotion": "output\\sample_face_neutral_emotion.jpg",
+        "comparison_montage": "output\\sample_face_neutral_comparison.jpg"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "filename": "sample_face_surprised.jpg",
+    "total_faces_detected": 1,
+    "processing_time_sec": 0.003,
+    "faces": [
+        {
+            "box": [
+                41,
+                32,
+                326,
+                326
+            ],
+            "dominant_emotion": "Surprise",
+            "confidence": 0.8256,
+            "probabilities": {
+                "Angry": 0.0291,
+                "Disgust": 0.0291,
+                "Fear": 0.0291,
+                "Happy": 0.0291,
+                "Sad": 0.0291,
+                "Surprise": 0.8256,
+                "Neutral": 0.0291
+            }
+        }
+    ],
+    "output_files": {
+        "annotated_emotion": "output\\sample_face_surprised_emotion.jpg",
+        "comparison_montage": "output\\sample_face_surprised_comparison.jpg"
+    }
+}
